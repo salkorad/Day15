@@ -1,0 +1,91 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    }
+main {
+    min-height: calc(100vh - 50px - 52px);
+
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+nav li#sign_in {
+    width: 55px;
+    height: 28px;
+    background: blue;
+    
+
+}
+nav li#sign_in a {
+    text-align: center;
+    color: white;
+}
+#gmail a {
+    color: black;
+}
+#images a {
+    color: black;
+}
+nav li {
+   
+   margin-right: 20px; 
+}
+li a {
+    text-decoration: none;
+}
+#sign_in {
+    background: blue;
+    color: #fff;
+}
+.google-image {
+    text-align: center;
+    padding-top: 200px;
+}
+
+.form-search {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    
+}
+#form-search {
+    min-width: 30%;
+	height: 25px;
+    border-radius: 15px;
+    outline: 0;
+}
+.buttons {
+    text-align: center;
+}
+ 
+footer {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+}
+footer li a {
+    color: gray;
+} 
+#footer-right.li {
+    display: inline-block;
+}
+.footer-right {
+    display: flex;
+}
+.footer-right li {
+    flex-grow: 1;
+    text-align: right;
+}
+#footer-left {
+    display: flex;
+}
+#footer-left li {
+    flex-grow: 1;
+    text-align: left;
+}
+li {
+   display: inline-block;
+   margin-right: 20px; 
+}
